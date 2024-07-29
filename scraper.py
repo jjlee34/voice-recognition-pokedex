@@ -5,7 +5,7 @@ from urllib.request import Request, urlopen
 
 from typing import List, NamedTuple
 
-uri = "mongodb+srv://jordanjlee2023:PAxMi446Hi9mO9wm@jjlee.48gigog.mongodb.net/?appName=JJLee"
+uri = "SAMPLE_URI"
 client = MongoClient(uri)
 db = client.pokedex
 pokemon_collection = db.pokemon_new
